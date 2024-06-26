@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="basics.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><marquee behavior="scroll" direction="right" scrollamount="25">Welcome to My Web Page</marquee></h1>
+            <nav>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#download">Download</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Unlimited Music, Anytime, Anywhere</h2>
+            <p>Stream your favorite songs and podcasts on our platform.</p>
+            <button onclick="location.href='#download'">Download Now</button>
+        </div>
+    </section>
+
+    <section id="features" class="section">
+        <div class="container">
+            <h1 class="scroll"><center>Features</center></h1>
+            <div class="feature-box">
+                <div class="feature-content">
+                    <img src="C:\Users\my\Desktop\intern\s1.jpg" alt="Stream Music">
+                </div>
+                <div class="feature-description">
+                    <h3>Stream Music</h3>
+                    <p>Enjoy unlimited streaming of songs from various genres and languages. Over 6 million songs available. Discover new music tailored to your preferences and create personalized playlists for any occasion.</p>
+                    <ul>
+                        <li>High-quality audio streaming</li>
+                        <li>Curated playlists updated regularly</li>
+                        <li>Easy sharing with friends</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="feature-box">
+                <div class="feature-content">
+                    <img src="C:\Users\my\Desktop\intern\s3.jpg" alt="Podcasts">
+                </div>
+                <div class="feature-description">
+                    <h3>Podcasts</h3>
+                    <p>Listen to your favorite podcasts on the go. Explore a wide range of podcast genres and stay updated with the latest episodes. Download episodes for offline listening to enjoy during your commute or travels.</p>
+                    <ul>
+                        <li>Extensive collection of podcasts</li>
+                        <li>Regularly updated content</li>
+                        <li>Personalized recommendations</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="feature-box">
+                <div class="feature-content">
+                    <img src="C:\Users\my\Desktop\intern\s2.jpg" alt="Download MP3s">
+                </div>
+                <div class="feature-description">
+                    <h3>Download MP3s</h3>
+                    <p>Download high-quality MP3 songs for offline listening. Easily manage your downloads and enjoy your favorite tracks without using data. Access your downloaded music anytime, anywhere.</p>
+                    <ul>
+                        <li>High-fidelity audio files</li>
+                        <li>Organize music library effortlessly</li>
+                        <li>Uninterrupted listening experience</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="feature-box">
+                <div class="feature-content">
+                    <img src="C:\Users\my\Desktop\intern\s4.jpg" alt="Audio Books">
+                </div>
+                <div class="feature-description">
+                    <h3>Audio Books</h3>
+                    <p>Access a vast library of audiobooks and listen to them anytime, anywhere. Discover new releases and classic titles, all in high-quality audio. Perfect for book lovers on the go.</p>
+                    <ul>
+                        <li>Extensive collection of audiobooks</li>
+                        <li>High-quality audio narration</li>
+                        <li>Bookmark and resume easily</li>
+                    </ul>
+                    <audio controls>
+                        <source src="C:\Users\my\Desktop\intern\sample.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="download" class="section">
+        <div class="container">
+            <h2>Download the App</h2>
+            <p>Available on all major platforms. Get it now and enjoy unlimited music!</p>
+            <div class="app-buttons">
+                <a href="https://play.google.com/store" target="_blank"><img src="C:\Users\my\Desktop\intern\p.png" alt="Google Play Store" style="width: 20px; height: 20px;"></a>
+                <a href="https://www.apple.com/app-store/" target="_blank"><img src="C:\Users\my\Desktop\intern\a.png" alt="Apple App Store" style="width: 20px; height: 20px;"></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Web Page. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
